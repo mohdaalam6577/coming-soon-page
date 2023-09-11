@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 20px;
+    text-align: center;
+}
+
+.coming-soon{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.title{
+    display: block;
+}
+
+.title h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.title p{
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.timer{
+    text-align: center;
+}
+
+.timer span{
+    font-size: 2rem;
+    color: rgb(209, 42, 42);
+    font-weight: bold;
+}
+
+.timer .label{
+    font-size: 1.5rem;
+    color: #183D3D
+}
+
+footer{
+    background-color: #183D3D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer span{
+    color: red;
+}
